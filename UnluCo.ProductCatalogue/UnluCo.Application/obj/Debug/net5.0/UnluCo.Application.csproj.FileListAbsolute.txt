@@ -1,0 +1,17 @@
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\bin\Debug\net5.0\UnluCo.Application.deps.json
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\bin\Debug\net5.0\UnluCo.Application.dll
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\bin\Debug\net5.0\ref\UnluCo.Application.dll
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\bin\Debug\net5.0\UnluCo.Application.pdb
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\bin\Debug\net5.0\UnluCo.Domain.dll
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\bin\Debug\net5.0\UnluCo.Infrastructure.dll
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\bin\Debug\net5.0\UnluCo.Infrastructure.pdb
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\bin\Debug\net5.0\UnluCo.Domain.pdb
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\obj\Debug\net5.0\UnluCo.Application.csproj.AssemblyReference.cache
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\obj\Debug\net5.0\UnluCo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\obj\Debug\net5.0\UnluCo.Application.AssemblyInfoInputs.cache
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\obj\Debug\net5.0\UnluCo.Application.AssemblyInfo.cs
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\obj\Debug\net5.0\UnluCo.Application.csproj.CoreCompileInputs.cache
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\obj\Debug\net5.0\UnluCo.Application.csproj.CopyComplete
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\obj\Debug\net5.0\UnluCo.Application.dll
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\obj\Debug\net5.0\ref\UnluCo.Application.dll
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\Business\obj\Debug\net5.0\UnluCo.Application.pdb

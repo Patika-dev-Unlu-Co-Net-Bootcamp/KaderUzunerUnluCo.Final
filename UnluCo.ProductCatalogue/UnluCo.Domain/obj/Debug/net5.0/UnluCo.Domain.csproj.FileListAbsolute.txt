@@ -1,0 +1,12 @@
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.Entities\bin\Debug\net5.0\UnluCo.Domain.deps.json
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.Entities\bin\Debug\net5.0\UnluCo.Domain.dll
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.Entities\bin\Debug\net5.0\ref\UnluCo.Domain.dll
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.Entities\bin\Debug\net5.0\UnluCo.Domain.pdb
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.Entities\obj\Debug\net5.0\UnluCo.Domain.csproj.AssemblyReference.cache
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.Entities\obj\Debug\net5.0\UnluCo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.Entities\obj\Debug\net5.0\UnluCo.Domain.AssemblyInfoInputs.cache
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.Entities\obj\Debug\net5.0\UnluCo.Domain.AssemblyInfo.cs
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.Entities\obj\Debug\net5.0\UnluCo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.Entities\obj\Debug\net5.0\UnluCo.Domain.dll
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.Entities\obj\Debug\net5.0\ref\UnluCo.Domain.dll
+C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.Entities\obj\Debug\net5.0\UnluCo.Domain.pdb

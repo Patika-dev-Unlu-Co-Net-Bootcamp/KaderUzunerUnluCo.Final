@@ -1,0 +1,53 @@
+﻿@page "/product"
+@using UnluCo.Application.Dto
+@inject IHttpClientFactory clientfactory
+@using Newtonsoft.Json
+<h3>Product</h3>
+@if (Products is null)
+{
+    <h3>Sayfa yükleniyor..</h3>
+}
+else
+{
+    <table class="table">
+        <thead>
+
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Image</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Products)
+            {
+
+                <tr>
+                    <td >@item.ProductName</td>
+                    <td>@item.Descripton</td>
+                    <td>@item.Image</td>
+                    <td>@item.Price</td>
+                
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    public List<ProductDto> Products { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        var client = clientfactory.CreateClient();
+        var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:3000/api/Products");
+        var response = await client.SendAsync(request);
+        if (response.IsSuccessStatusCode)
+        {
+            var json = await response.Content.ReadAsStringAsync();
+            Products = JsonConvert.DeserializeObject<List<ProductDto>>(json);
+        }
+    }
+
+}
