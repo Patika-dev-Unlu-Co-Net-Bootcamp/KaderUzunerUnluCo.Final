@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\UnluCo.RabbitMq\\UnluCo.RabbitMq.csproj": {}
+    "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\UnluCo.RabbitMq\\UnluCo.RabbitMq.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\Business\\UnluCo.Application.csproj": {
+    "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Application\\ProductUnluCo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\Business\\UnluCo.Application.csproj",
-        "projectName": "UnluCo.Application",
-        "projectPath": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\Business\\UnluCo.Application.csproj",
+        "projectUniqueName": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Application\\ProductUnluCo.Application.csproj",
+        "projectName": "ProductUnluCo.Application",
+        "projectPath": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Application\\ProductUnluCo.Application.csproj",
         "packagesPath": "C:\\Users\\KADER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\Business\\obj\\",
+        "outputPath": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KADER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\DataAccess\\UnluCo.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\DataAccess\\UnluCo.Infrastructure.csproj"
+              "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Domain\\ProductUnluCo.Domain.csproj": {
+                "projectPath": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Domain\\ProductUnluCo.Domain.csproj"
               },
-              "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\UnluCo.Entities\\UnluCo.Domain.csproj": {
-                "projectPath": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\UnluCo.Entities\\UnluCo.Domain.csproj"
+              "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Infrastructure\\ProductUnluCo.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Infrastructure\\ProductUnluCo.Infrastructure.csproj"
               }
             }
           }
@@ -51,37 +51,13 @@
               "target": "Package",
               "version": "[11.0.1, )"
             },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[11.0.0, )"
-            },
             "FluentValidation": {
               "target": "Package",
               "version": "[10.3.6, )"
             },
-            "Microsoft.AspNetCore.Identity": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.13, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.14, )"
-            },
-            "Microsoft.IdentityModel.Tokens": {
-              "target": "Package",
-              "version": "[5.6.0, )"
-            },
             "RabbitMQ.Client": {
               "target": "Package",
-              "version": "[6.2.3, )"
-            },
-            "System.Configuration.ConfigurationManager": {
-              "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.2.4, )"
             }
           },
           "imports": [
@@ -103,14 +79,78 @@
         }
       }
     },
-    "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\DataAccess\\UnluCo.Infrastructure.csproj": {
+    "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Domain\\ProductUnluCo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\DataAccess\\UnluCo.Infrastructure.csproj",
-        "projectName": "UnluCo.Infrastructure",
-        "projectPath": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\DataAccess\\UnluCo.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Domain\\ProductUnluCo.Domain.csproj",
+        "projectName": "ProductUnluCo.Domain",
+        "projectPath": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Domain\\ProductUnluCo.Domain.csproj",
         "packagesPath": "C:\\Users\\KADER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\KADER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Infrastructure\\ProductUnluCo.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Infrastructure\\ProductUnluCo.Infrastructure.csproj",
+        "projectName": "ProductUnluCo.Infrastructure",
+        "projectPath": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Infrastructure\\ProductUnluCo.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\KADER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KADER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -127,8 +167,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\UnluCo.Entities\\UnluCo.Domain.csproj": {
-                "projectPath": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\UnluCo.Entities\\UnluCo.Domain.csproj"
+              "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Domain\\ProductUnluCo.Domain.csproj": {
+                "projectPath": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Domain\\ProductUnluCo.Domain.csproj"
               }
             }
           }
@@ -145,13 +185,15 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[5.0.14, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.14, )"
             },
-            "Microsoft.EntityFrameworkCore.Proxies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.14, )"
             },
@@ -185,74 +227,14 @@
         }
       }
     },
-    "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\UnluCo.Entities\\UnluCo.Domain.csproj": {
+    "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\UnluCo.RabbitMq\\UnluCo.RabbitMq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\UnluCo.Entities\\UnluCo.Domain.csproj",
-        "projectName": "UnluCo.Domain",
-        "projectPath": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\UnluCo.Entities\\UnluCo.Domain.csproj",
-        "packagesPath": "C:\\Users\\KADER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\UnluCo.Entities\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\KADER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.10, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\UnluCo.RabbitMq\\UnluCo.RabbitMq.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\UnluCo.RabbitMq\\UnluCo.RabbitMq.csproj",
+        "projectUniqueName": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\UnluCo.RabbitMq\\UnluCo.RabbitMq.csproj",
         "projectName": "UnluCo.RabbitMq",
-        "projectPath": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\UnluCo.RabbitMq\\UnluCo.RabbitMq.csproj",
+        "projectPath": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\UnluCo.RabbitMq\\UnluCo.RabbitMq.csproj",
         "packagesPath": "C:\\Users\\KADER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\UnluCo.RabbitMq\\obj\\",
+        "outputPath": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\UnluCo.RabbitMq\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KADER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -269,8 +251,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\Business\\UnluCo.Application.csproj": {
-                "projectPath": "C:\\Users\\KADER\\source\\repos\\UnluCo.ProductCatalogue\\Business\\UnluCo.Application.csproj"
+              "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Application\\ProductUnluCo.Application.csproj": {
+                "projectPath": "C:\\Users\\KADER\\Desktop\\GithubNew\\KaderUzunerUnluCo.Final\\UnluCo.ProductCatalogue\\ProductUnluCo.Application\\ProductUnluCo.Application.csproj"
               }
             }
           }

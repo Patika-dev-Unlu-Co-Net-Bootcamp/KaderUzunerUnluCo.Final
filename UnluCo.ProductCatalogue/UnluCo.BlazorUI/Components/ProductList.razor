@@ -1,5 +1,5 @@
-﻿@page "/product"
-@using UnluCo.Application.Dto
+﻿@page "/productlist"
+@using ProductUnluCo.Application.Dto
 @inject IHttpClientFactory clientfactory
 @using Newtonsoft.Json
 <h3>Product</h3>
@@ -24,11 +24,11 @@ else
             {
 
                 <tr>
-                    <td >@item.ProductName</td>
+                    <td>@item.ProductName</td>
                     <td>@item.Descripton</td>
                     <td>@item.Image</td>
                     <td>@item.Price</td>
-                
+
                 </tr>
             }
         </tbody>
@@ -41,8 +41,8 @@ else
     protected override async Task OnInitializedAsync()
     {
         var client = clientfactory.CreateClient();
-        var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:3000/api/Products");
-        var response = await client.SendAsync(request);
+
+        var response = await client.GetAsync("https://localhost:3000/api/Products");
         if (response.IsSuccessStatusCode)
         {
             var json = await response.Content.ReadAsStringAsync();
@@ -51,3 +51,4 @@ else
     }
 
 }
+

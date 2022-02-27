@@ -10,7 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Business\UnluCo.Application.csproj" />
+   
+    <ProjectReference Include="..\ProductUnluCo.Application\ProductUnluCo.Application.csproj" />
+   
     <ProjectReference Include="..\UnluCo.WebApi\UnluCo.WebApi.csproj" />
   </ItemGroup>
 

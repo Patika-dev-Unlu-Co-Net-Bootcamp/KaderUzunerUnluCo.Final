@@ -1,0 +1,12 @@
+C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\ProductUnluCo.Domain\bin\Debug\net5.0\ProductUnluCo.Domain.deps.json
+C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\ProductUnluCo.Domain\bin\Debug\net5.0\ProductUnluCo.Domain.dll
+C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\ProductUnluCo.Domain\bin\Debug\net5.0\ref\ProductUnluCo.Domain.dll
+C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\ProductUnluCo.Domain\bin\Debug\net5.0\ProductUnluCo.Domain.pdb
+C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\ProductUnluCo.Domain\obj\Debug\net5.0\ProductUnluCo.Domain.csproj.AssemblyReference.cache
+C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\ProductUnluCo.Domain\obj\Debug\net5.0\ProductUnluCo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\ProductUnluCo.Domain\obj\Debug\net5.0\ProductUnluCo.Domain.AssemblyInfoInputs.cache
+C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\ProductUnluCo.Domain\obj\Debug\net5.0\ProductUnluCo.Domain.AssemblyInfo.cs
+C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\ProductUnluCo.Domain\obj\Debug\net5.0\ProductUnluCo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\ProductUnluCo.Domain\obj\Debug\net5.0\ProductUnluCo.Domain.dll
+C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\ProductUnluCo.Domain\obj\Debug\net5.0\ref\ProductUnluCo.Domain.dll
+C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\ProductUnluCo.Domain\obj\Debug\net5.0\ProductUnluCo.Domain.pdb

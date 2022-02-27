@@ -1,7 +1,8 @@
-﻿using Business.Abstract;
-using Business.Dto;
+﻿
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ProductUnluCo.Application.Dto;
+using ProductUnluCo.Application.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,11 +24,20 @@ namespace UnluCo.WebApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddOfferable(OfferableDto offerableDto)
+        public async Task< IActionResult >AddOfferable([FromBody] OfferableDto offerableDto)
         {
-            var userId = User.FindFirstValue(ClaimTypes.Name);
-            _offerableService.Add(offerableDto, userId);
-            return StatusCode((int)HttpStatusCode.Created);
+
+            try
+            {
+                await _offerableService.Add(offerableDto);
+                return Ok();
+            }
+            catch (Exception e)
+            {
+
+                return BadRequest(e.Message);
+            }
+
 
         }
 

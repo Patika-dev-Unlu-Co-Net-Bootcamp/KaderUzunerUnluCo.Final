@@ -1,6 +1,5 @@
-﻿using Business.Dto;
+﻿
 using Microsoft.AspNetCore.Authorization;
-
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -9,11 +8,11 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
-using UnluCo.Application.Dto;
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using UnluCo.Entities.Concrete;
+using ProductUnluCo.Domain.Models;
+using ProductUnluCo.Application.Dto;
 
 namespace UnluCo.WebApi.Controllers
 {

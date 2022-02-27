@@ -1,8 +1,9 @@
 ﻿using Newtonsoft.Json;
+using ProductUnluCo.Application.Dto;
 using RabbitMQ.Client;
 using System;
 using System.Text;
-using UnluCo.Application.Dto;
+
 
 namespace UnluCo.RabbitMq
 {
@@ -39,5 +40,5 @@ namespace UnluCo.RabbitMq
 
         }
     }
-    }
+}
 

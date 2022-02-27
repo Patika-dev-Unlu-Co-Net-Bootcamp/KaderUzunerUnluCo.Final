@@ -1,15 +1,15 @@
 ﻿using AutoMapper;
-using Business.Abstract;
-using Business.Dto;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using ProductUnluCo.Application.Dto;
+using ProductUnluCo.Application.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using UnluCo.Application.Dto;
+
 
 namespace UnluCo.WebApi.Controllers
 {
@@ -66,7 +66,7 @@ namespace UnluCo.WebApi.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            ProductDto productDelete = new ProductDto() { Id = id };
+            ProductDto productDelete = new ProductDto() { ProductId = id };
             _productService.Delete(productDelete);
             return Ok();
         }

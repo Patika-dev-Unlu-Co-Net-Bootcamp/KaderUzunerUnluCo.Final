@@ -13,91 +13,91 @@ namespace UnluCo.BlazorUI.Components
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
+#line 1 "C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
+#line 2 "C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
+#line 3 "C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
+#line 4 "C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
+#line 5 "C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
+#line 6 "C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
+#line 7 "C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
+#line 8 "C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
+#line 9 "C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
 using UnluCo.BlazorUI;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
+#line 10 "C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\UnluCo.BlazorUI\_Imports.razor"
 using UnluCo.BlazorUI.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.BlazorUI\Components\Product.razor"
-using UnluCo.Application.Dto;
+#line 2 "C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\UnluCo.BlazorUI\Components\ProductList.razor"
+using ProductUnluCo.Application.Dto;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.BlazorUI\Components\Product.razor"
+#line 4 "C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\UnluCo.BlazorUI\Components\ProductList.razor"
 using Newtonsoft.Json;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/product")]
-    public partial class Product : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/productlist")]
+    public partial class ProductList : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -105,15 +105,15 @@ using Newtonsoft.Json;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "C:\Users\KADER\source\repos\UnluCo.ProductCatalogue\UnluCo.BlazorUI\Components\Product.razor"
+#line 38 "C:\Users\KADER\Desktop\GithubNew\KaderUzunerUnluCo.Final\UnluCo.ProductCatalogue\UnluCo.BlazorUI\Components\ProductList.razor"
        
     public List<ProductDto> Products { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
         var client = clientfactory.CreateClient();
-        var request = new HttpRequestMessage(HttpMethod.Get, "http://localhost:3000/api/Products");
-        var response = await client.SendAsync(request);
+
+        var response = await client.GetAsync("https://localhost:3000/api/Products");
         if (response.IsSuccessStatusCode)
         {
             var json = await response.Content.ReadAsStringAsync();

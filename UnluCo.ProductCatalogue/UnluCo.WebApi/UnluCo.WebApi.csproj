@@ -8,7 +8,11 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.9" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.14">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -19,8 +23,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Business\UnluCo.Application.csproj" />
-    <ProjectReference Include="..\DataAccess\UnluCo.Infrastructure.csproj" />
+
+    <ProjectReference Include="..\ProductUnluCo.Application\ProductUnluCo.Application.csproj" />
+    <ProjectReference Include="..\ProductUnluCo.Domain\ProductUnluCo.Domain.csproj" />
+    <ProjectReference Include="..\ProductUnluCo.Infrastructure\ProductUnluCo.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

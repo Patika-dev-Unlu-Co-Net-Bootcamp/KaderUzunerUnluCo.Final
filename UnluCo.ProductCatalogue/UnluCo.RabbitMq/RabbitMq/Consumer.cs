@@ -1,4 +1,6 @@
-﻿using RabbitMQ.Client;
+﻿using ProductUnluCo.Application.Dto;
+using ProductUnluCo.Application.Interface;
+using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;
 using System.Collections.Generic;
@@ -8,7 +10,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using UnluCo.Application.Dto;
+
 
 namespace UnluCo.Application.RabbitMq
 {
