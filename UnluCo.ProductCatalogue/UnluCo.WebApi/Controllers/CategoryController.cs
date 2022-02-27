@@ -1,8 +1,11 @@
 ﻿
+using FluentValidation;
+using FluentValidation.Results;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProductUnluCo.Application.Dto;
 using ProductUnluCo.Application.Interface;
+using ProductUnluCo.Application.ValidationRules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +29,7 @@ namespace UnluCo.WebApi.Controllers
         {
             try
             {
+               
                 var categories = await _categoryService.GetAll();
                 return Ok(categories);
             }
@@ -39,7 +43,10 @@ namespace UnluCo.WebApi.Controllers
         {
             try
             {
-                await _categoryService.Add(categoryDto);
+                 CategoryValidator validator = new CategoryValidator();
+                validator.ValidateAndThrow(categoryDto);
+
+                 await _categoryService.Add(categoryDto);
                 return Ok();
             }
             catch (Exception e)

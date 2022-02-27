@@ -27,6 +27,7 @@ namespace UnluCo.WebApi.Controllers
         {
             try
             {
+                
                 var brands = await _brandService.GetAll();
                 return Ok(brands);
             }

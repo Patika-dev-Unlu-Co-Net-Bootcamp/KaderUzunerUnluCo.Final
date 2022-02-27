@@ -13,6 +13,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using ProductUnluCo.Domain.Models;
 using ProductUnluCo.Application.Dto;
+using ProductUnluCo.Application.Interface;
 
 namespace UnluCo.WebApi.Controllers
 {
@@ -30,6 +31,8 @@ namespace UnluCo.WebApi.Controllers
             _configuration = configuration;
             _jwtSettings = _configuration.GetSection("JwtSettings");
         }
+    
+
         [HttpPost("Login")]
         public async Task<IActionResult> Login([FromBody] UserDto userForAuthentication)
         {

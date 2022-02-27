@@ -21,16 +21,16 @@ namespace UnluCo.TestProject
             var products = repository.GetAll();
 
             Assert.NotEmpty(products);
-            Assert.Equal(3, products.count());
+            Assert.Equal(4, products.Count());
         }
 
-     
+
 
         [Fact]
         public void Get_return()
         {
             var repository = new ProductRepository(_context);
-            var products = repository.Get(x => x.ProductName == "Test1");
+            var products = repository.Get(x => x.ProductName == "Ayakkabý");
             Assert.NotEmpty(products);
         }
     }

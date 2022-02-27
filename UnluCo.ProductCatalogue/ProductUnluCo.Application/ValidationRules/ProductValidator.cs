@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using ProductUnluCo.Domain.Models;
+using ProductUnluCo.Application.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProductUnluCo.Application.ValidationRules
 {
-    public class ProductValidator : AbstractValidator<Product>
+    public class ProductValidator : AbstractValidator<ProductDto>
     {
         public ProductValidator()
     {
@@ -17,7 +17,7 @@ namespace ProductUnluCo.Application.ValidationRules
      RuleFor(x => x.Descripton).MaximumLength(500).WithMessage("Açıklama 500 karakterden fazla olamaz.");
         RuleFor(x => x.Price).NotEmpty().WithMessage("Ürün fiyatı boş geçilemez");
 
-     RuleFor(x => x.Status).NotEmpty().WithMessage("Kullanım durumu boş geçilemez");
+    
 
 }
       

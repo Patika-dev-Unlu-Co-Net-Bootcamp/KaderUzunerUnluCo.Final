@@ -58,7 +58,7 @@ namespace UnluCo.WebApi
                 option.Lockout.MaxFailedAccessAttempts = 3;
                 option.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(10);
             }).AddEntityFrameworkStores<ProductDbContext>().AddDefaultTokenProviders();
-           
+         
             services.AddScoped<ICategoryService, CategoryService>();           
             services.AddScoped<IProductService, ProductService>();         
             services.AddScoped<IColorService, ColorService>();

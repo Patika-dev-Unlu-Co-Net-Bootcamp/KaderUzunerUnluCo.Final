@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProductUnluCo.Application.Dto;
 using ProductUnluCo.Application.Interface;
+using ProductUnluCo.Application.ValidationRules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,6 +51,8 @@ namespace UnluCo.WebApi.Controllers
         {
             try
             {
+                ColorValidator validator = new ColorValidator();
+                validator.ValidateAndThrow(colorDto);
                 await _colorService.Add(colorDto);
                 return Ok();
             }

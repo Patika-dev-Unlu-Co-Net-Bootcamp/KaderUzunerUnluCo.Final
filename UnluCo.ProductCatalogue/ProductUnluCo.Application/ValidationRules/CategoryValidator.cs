@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using ProductUnluCo.Domain.Models;
+using ProductUnluCo.Application.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProductUnluCo.Application.ValidationRules
 {
-    public class CategoryValidator : AbstractValidator<Category>
+    public class CategoryValidator : AbstractValidator<CategoryDto>
     {
         public CategoryValidator()
         {

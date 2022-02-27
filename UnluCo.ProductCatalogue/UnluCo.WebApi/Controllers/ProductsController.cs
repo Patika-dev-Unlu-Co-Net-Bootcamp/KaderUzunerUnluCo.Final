@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using ProductUnluCo.Application.Dto;
 using ProductUnluCo.Application.Interface;
+using ProductUnluCo.Application.ValidationRules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +31,7 @@ namespace UnluCo.WebApi.Controllers
         {
             try
             {
+               
                 var products = await _productService.GetAll();
                 return Ok(products);
             }
@@ -43,6 +46,8 @@ namespace UnluCo.WebApi.Controllers
         {
             try
             {
+                ProductValidator validator = new ProductValidator();
+                validator.ValidateAndThrow(productDto);
                await _productService.Add(productDto);
                 return Ok();
             }

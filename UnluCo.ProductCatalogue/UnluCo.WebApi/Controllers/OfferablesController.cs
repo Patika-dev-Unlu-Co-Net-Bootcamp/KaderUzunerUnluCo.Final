@@ -1,8 +1,10 @@
 ﻿
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProductUnluCo.Application.Dto;
 using ProductUnluCo.Application.Interface;
+using ProductUnluCo.Application.ValidationRules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +31,8 @@ namespace UnluCo.WebApi.Controllers
 
             try
             {
+                OfferableValidator validator = new OfferableValidator();
+                validator.ValidateAndThrow(offerableDto);
                 await _offerableService.Add(offerableDto);
                 return Ok();
             }

@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using ProductUnluCo.Application.Dto;
 using ProductUnluCo.Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ProductUnluCo.Application.ValidationRules
 {
-    public class ColorValidator : AbstractValidator<Color>
+    public class ColorValidator : AbstractValidator<ColorDto>
     {
         public ColorValidator()
         {

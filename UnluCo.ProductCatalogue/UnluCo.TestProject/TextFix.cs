@@ -20,7 +20,7 @@ namespace UnluCo.TestProject
 
 
             Context.Database.EnsureCreated();
-            Context.Categories.AddRange(Data.GetCategoriesData());
+            Context.Products.AddRange(Data.GetProductData());
             Context.SaveChanges();
         }
     }
