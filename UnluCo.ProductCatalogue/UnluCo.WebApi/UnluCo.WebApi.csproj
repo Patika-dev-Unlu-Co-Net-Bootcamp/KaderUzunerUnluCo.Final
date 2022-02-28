@@ -29,4 +29,8 @@
     <ProjectReference Include="..\ProductUnluCo.Infrastructure\ProductUnluCo.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Files\Images\" />
+  </ItemGroup>
+
 </Project>
