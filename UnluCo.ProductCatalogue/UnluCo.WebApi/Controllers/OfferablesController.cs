@@ -45,21 +45,7 @@ namespace UnluCo.WebApi.Controllers
 
         }
 
-        //[HttpDelete("{id}")]
-        //public IActionResult Delete(int id)
-        //{
-        //    _offerableService.Delete(id);
-
-        //    return Ok();
-        //}
-
-        //[HttpPut("{id}")]
-        //public IActionResult Update([FromBody] OfferableDto offerable, int id)
-        //{
-        //    var userId = User.FindFirstValue(ClaimTypes.Name);
-        //    _offerableService.Update(offerable, userId, id);
-        //    return Ok();
-        //}
+       
 
 
     }

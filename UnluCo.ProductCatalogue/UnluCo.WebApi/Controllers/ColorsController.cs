@@ -36,16 +36,6 @@ namespace UnluCo.WebApi.Controllers
                 return BadRequest(e.Message);
             }
         }
-
-
-        //[HttpDelete("{id}")]
-        //public IActionResult Delete(int id)
-        //{
-        //    ColorDto colorDelete = new ColorDto() { Id = id };
-        //    _colorService.Delete(id);
-        //    return Ok();
-
-        //}
         [HttpPost]
         public async Task<IActionResult> Add([FromBody] ColorDto colorDto)
         {
